@@ -25,7 +25,7 @@
                     <div th:each="propiedad : ${QUINCHO}" class="col-sm-6 col-lg-4">
                         <div class="meal">
                             <div class="meal-image">
-                                <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class="d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
+                                <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class="propiedad-imagen d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
                             </div>
                             <div class="meal-content">
                                 <div class="meal-tags">
@@ -63,7 +63,7 @@
                     <div th:each="propiedad : ${PATIO}" class="col-sm-6 col-lg-4">
                         <div class="meal">
                             <div class="meal-image">
-                                <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class="d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
+                                <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class=" propiedad-imagen d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
                             </div>
                             <div class="meal-content">
                                 <div class="meal-tags">
@@ -102,7 +102,7 @@
                 <div th:each="propiedad : ${SALON_DE_FIESTA}" class="col-sm-6 col-lg-4">
                     <div class="meal">
                         <div class="meal-image">
-                            <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class="d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
+                            <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class=" propiedad-imagen d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
                         </div>
                         <div class="meal-content">
                             <div class="meal-tags">
@@ -140,7 +140,7 @@
                 <div th:each="propiedad : ${CASA_QUINTA}" class="col-sm-6 col-lg-4" >
                     <div class="meal">
                         <div class="meal-image">
-                            <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class="d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
+                            <img th:src="@{'/imagen/imgPropiedad/' + ${propiedad.imagenes[0].idImagen}}" class=" propiedad-imagen d-block w-100" alt="Imagen de la propiedad" data-bs-toggle="modal" th:data-bs-target="'#carouselModal-' + ${propiedad.idPropiedad}" />
                         </div>
                         <div class="meal-content">
                             <div class="meal-tags">
