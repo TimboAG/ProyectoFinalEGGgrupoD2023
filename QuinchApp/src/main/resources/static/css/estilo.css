@@ -83,7 +83,6 @@ body{
 
 #titulo{
     padding-top: 10%;
-    padding-bottom: 10%
 }
 
 .meal {
@@ -168,7 +167,6 @@ body{
 #cardsPropiedades{
     margin: 5%; 
     margin-bottom: 0% !important;
-    padding-bottom: 8%;
 }
 
 .btnSolicitarReserva{
@@ -284,10 +282,22 @@ section {
   height: 100%;
   object-fit: cover;
 }
-.fixed-height {
-    max-height: 200px; /* Establece la altura máxima fija que desees */
-    overflow-y: auto; /* Añade desplazamiento vertical en caso de que el contenido supere la altura máxima */
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
 }
-.meal-content {
-  min-height: 500px; /* ajusta el valor según tus necesidades */
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
+
